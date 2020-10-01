@@ -1,6 +1,6 @@
 from .address import Address
 
-class Customer:
+class The Customer:
     """The Customer who orders a pizza."""
 
     def __init__(self, fname='', lname='', email='', phone='', address=None):
